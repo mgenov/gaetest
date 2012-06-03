@@ -1,0 +1,3 @@
+1. Import current version twig-persist which we are using in production and check the results
+2. Import latest version of twig-persist and check the results
+3. Import Guice-Servlet and check the performance
