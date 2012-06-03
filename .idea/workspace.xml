@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="728fd1fa-79be-427f-b3dc-ab253951c693" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\appengine-web.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\classes\com\clouway\testapp\BenchmarkDataImportServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\classes\com\clouway\testapp\test.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\lib\appengine-api-1.0-sdk-1.6.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\lib\appengine-api-labs-1.6.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\lib\appengine-jsr107cache-1.6.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\lib\gson-2.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\lib\guava-12.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\lib\jsr107cache-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\lib\servlet-api-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\artifacts\gaetest_war_exploded\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\production\gaetest\com\clouway\testapp\BenchmarkDataImportServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\idea\gaetest\out\production\gaetest\com\clouway\testapp\test.json" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gaetest.iws" />
@@ -92,10 +79,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appengine-web.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="appengine-web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="220" selection-end="220" vertical-scroll-proportion="0.20659722">
+            <state line="7" column="27" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,6 +125,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/clouway/testapp/BenchmarkDataImportServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -245,20 +242,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaetest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaetest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,7 +471,11 @@
       <created>1338756506895</created>
       <updated>1338756506895</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Out directory removed.">
+      <created>1338756575569</created>
+      <updated>1338756575569</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -558,7 +545,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Out directory removed." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -572,6 +559,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Out directory removed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -616,7 +604,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="220" selection-end="220" vertical-scroll-proportion="0.20659722">
+        <state line="7" column="27" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
